@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+   background-color: #282c34;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.head{
+  width: 100%;
+  height:100px;
+  color: rgb(228, 27, 94);
+  background-color: black;
+}
+.App-header {
+  background-color:white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:black;
+}
+input{
+   width: 5%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;}
+button {
+  background-color:rgb(228, 27, 94);
+  
+  color:black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+ width: 100%;
+ margin-right: 300px;;
+  
+  border-width:2px;
+  border: 3px solid black;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+  color:black;
+  border: 3px solid black;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+  
+  background-color:black;
+  color:rgb(228, 27, 94);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
